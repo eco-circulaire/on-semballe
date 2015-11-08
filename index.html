@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>On s'emballe !</title>
+    <title>Pamplemousse</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
@@ -22,8 +22,141 @@
     <![endif]-->
   </head>
   <body>
+ 
+    <nav class="navbar navbar-default navbar-fixed-top navbar-transparent">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Pamplemousse</a>
+    </div>
 
-    <h1>Coucou</h1>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Accueil <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">L'équipe</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nos apéros <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Apéro entre potes</a></li>
+            <li><a href="#">Apéro chic</a></li>
+            <li><a href="#">Apéro bio</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Commander à l'unité</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Suivez nous <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#"><a href="http://facebook.com"><i class="fa fa-facebook"></i> Facebook
+          </a></a></li>
+            <li><a href="#"><a href="http://twitter.com"><i class="fa fa-twitter"></i> Twitter
+              </a></a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Notre blog</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
+    <div id="wrapper">
+      <h1>APERO VOLANT</h1>
+      <h2>Un apéro volant, tout simplement.</h2>
+      <button type="button" class="btn btn-primary">Commandez</button>
+    </div>
+
+          <div class="spacer"></div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-4 feature">
+                <img src="Images/icone-cocktail.png" alt="cocktail" width="100" class="center-block">
+                  <p class="text-center">Les boissons de votre choix
+                  </p>
+              </div>  
+              <div class="col-xs-4 feature">
+                <img src="Images/icone-panier.png" alt="cocktail" width="100" class="center-block">
+                <p class="text-center">Un panier de mets à partager pour un apéro réussi
+                </p>
+              </div>      
+              <div class="col-xs-4 feature">
+                <img src="Images/icone-livrer.png" alt="cocktail" width="100" class="center-block">
+                <p class="text-center">Le tout livré chez vous à l'heure de l'apéro
+                </p>
+              </div>  
+            </div>
+          </div>
+
+          <div class="spacer"></div>
+
+      <div class="container">
+          <div id="équipe" class='center block'>
+            <h2>Une équipe circulaire</h2>
+            <ul class='list-inline'>
+              <li>
+                <img src="images/icon-man.png" alt="Pierre" width="200" class="team shadow">
+                <p class='text-center'>Pierre</p>
+              </li>
+              <li>
+                <img src="images/icon-woman.png" alt="Clara" width="200" class="team shadow">
+                <p class='text-center'>Clara</p>
+              </li>
+              <li>
+                <img src="images/icon-woman.png" alt="Pauline" width="200" class="team shadow">
+                <p class='text-center'>Pauline</p>
+              </li>
+              <li>
+                <img src="images/icon-woman.png" alt="Valentine" width="200" class="team shadow">
+                <p class='text-center'>Valentine</p>
+              </li>
+              <li>
+                <img src="images/icon-man.png" alt="Pierre" width="200" class="team shadow">
+                <p class='text-center'>Pierre</p>
+              </li>
+            </ul>
+          </div>
+      </div>
+
+      <div class="spacer"></div>
+
+    <div class="container">
+      <form action='#'>
+            <input type="email" class="form-control" placeholder="votre email">
+            <input type="password" class="form-control" placeholder="mot de passe">
+            <input type="submit" value="Subscribe" class="btn btn-primary" id="btn-bootsrap-primary">
+      </form>
+
+      <div id="footer">    
+          <h3>Suivez nous !</h3>
+          <ul class='list-inline'>
+            <li>
+              <a href="http://facebook.com">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="http://twitter.com">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+      </div>
+    </div>
+
+    <div class="spacer"></div>
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </body>
 </html>
